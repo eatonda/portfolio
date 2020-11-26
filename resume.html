@@ -9,22 +9,25 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="css/style.css">
+
     <title>David Eaton Software Developer</title>
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #EB6C0C ">
-      <a class="navbar-brand" href="#about">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #DC4405 ">
+      <a class="navbar-brand" href="index.html">
         <img src="img/headshot.jpg" class="rounded-circle" alt="David Eaton" height="150px" width="150px">
+        <p> David Eaton<br> Software Engineer</p>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="index.html">About<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-          <a class="nav-item nav-link" href="resume.html">Resume</a>
+          <a class="nav-item nav-link active" href="resume.html">Resume</a>
           <a class="nav-item nav-link" href="contact.html">Contact</a>
         </div>
       </div>
@@ -32,29 +35,32 @@
     <!-- /navbar --> 
    
     <div class="container text-center pt-4">
-      <h1 class="display-3">Resume</h1>
+      <h1 class="title">Resume</h1>
       <a href="resources/resume.pdf" download target="_blank">Download Resume</a>
+      <!-- Row 1 --> 
       <div class="row">
           <!-- Education -->
-          <div class="col">
+          <div class="col-xl">
             <h3 class="mt-5">Education</h3>
-            <h6 class="oregonState">OREGON STATE UNIVERSITY</h6>
+            <br>
+            <h5 class="oregonState">OREGON STATE UNIVERSITY</h5>
             <p class="mb-3">
-              B.S. in Computer Science<br>
+              <b><em>B.S. in Computer Science</em></b><br>
               Corvalis, OR<br>
               Graduation Date March 2021
             </p>
-            <h6 class="universityOfNM">UNIVERSITY OF NEW MEXICO</h6>
+            <h5 class="universityOfNM">UNIVERSITY OF NEW MEXICO</h5>
             <p class="mb-3">
-              B.S. in Biology<br>
+              <b><em>B.S. in Biology</em></b><br>
               Albuquerque, NM<br>
               2012
             </p>
           </div>
           <!-- /Education -->
           <!-- Key Skills -->
-          <div class="col">
+          <div class="col-xl">
             <h3 class="mt-5">Key Skills</h3>
+            <br>
             <div class="row">
               <div class="col">
                 <a href="https://en.cppreference.com/w/c" target="_blank">
@@ -131,18 +137,66 @@
               <div class="col">
                 Scrum Development
               </div>
-              <div class="col">
-                More
-              </div>
             </div>
-
           </div>
           <!-- /Key Skills -->
-
+          <!-- Recognition -->
+          <div class="col-xl">
+            <h3 class="mt-5">Recognition</h3><br>
+            <p><em><i>magna cum laude</em></i></p>
+          </div>
+          <!-- /Recognition -->
       </div>
-      
+      <!-- /Row 1 -->
+
+      <!-- Row 2 -->
+      <div class="row">
+        <div class="col-xl">
+          <ul style="list-style-type:none;">
+            <lh><h3 class="mt-5">Coursework Highlights</h3></lh><br>
+            <li>Introduction to Computer Science I and II</li>
+            <li>Data Structures</li>
+            <li>Discrete Structures in Computer Science</li>
+            <li>Web Development</li>
+            <li>Computer Architecture & Assembly Language</li>
+            <li>Operating Systems</li>
+            <li>Analysis of Algorithms</li>
+            <li>Introduction to Databases</li>
+            <li>Software Engineering I and II</li>
+            <li>Mobile Software Development</li>
+            <li>Introduction to Security</li>
+            <li>Introduction to Computer Networks</li>
+            <li>Software Projects</li>
+            <li><a href="contact.html">Contact me to know more</a></li>
+          </ul>
+      </div>  
+      <div class="col-xl">
+        <ul style="list-style-type:none;">
+            <lh><h3 class="mt-5">Work Experience</h3></lh><br>
+            <!-- Pulte Homes -->
+            <li><h5>Pulte Homes</h5></li>
+            <li>December 2016 - December 2020</li>
+            <li>Associate Real Estate Broker and New Homes Sales Consultant</li><br>
+            <!-- /Pulte Homes -->
+            <!-- Apple -->
+            <li><h5>Apple</h5></li>
+            <li>December 2014 - August 2015</li>
+            <li>At Home Apple Care Advisor</li><br>
+            <!-- /Apple -->
+            <!-- T-Mobile -->
+            <li><h5>T-Mobile</h5></li>
+            <li>September 2013 - May 2014</li>
+            <li>Technical Support</li><br>
+            <!-- /T-Mobile -->
+        </ul>
+      </div>
+      <div class="col-xl">
+        <h3 class="mt-5">Projects</h3>
+        <br>
+        <a href="portfolio.html">See my portfolio.
+      </div>   
     </div>
-    
+     <!-- /Row 2 --> 
     
 
 
