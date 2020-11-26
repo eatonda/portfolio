@@ -1,5 +1,7 @@
 .title {
-	padding-top: 7em;
+	padding-top: 2.5em;
+	background-color: #2874A6;
+	color: white;
 }
 
 .oregonState {
@@ -10,3 +12,18 @@
 	color: #ba0c2f;
 }
 
+.hello {
+	background-color: black;
+	color: white;
+	font-size: 5em;
+}
+
+h2 {
+	background-color: #AEB6BF;
+	border-style: none;
+	color: white;
+}
+
+.nav-item {
+	font-size: 1.5em;
+}
