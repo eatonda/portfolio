@@ -2,10 +2,11 @@
 body {
 	font-weight: 500;
 	perspective: 1000px;
+
 }
 
 .title {
-	padding-top: 1.5em;
+	padding-top: 7.0rem;
 	background-color: #2874A6;
 	color: white;
 }
@@ -34,7 +35,7 @@ h2 {
 }
 
 .nav-item, .navbar-brand{
-	font-size: 2.25rem;
+	font-size: 1.75rem;
 	transition: transform .5s;
 }
 
@@ -52,12 +53,19 @@ h2 {
 	
 }
 
-.about {
-	font-size: 1.5rem;
+.about, .portfolio-item{
+	font-size: 1.10rem;
+	background-color: #EAECEE;
+	border-style: solid
+}
+
+.embed-responsive{
+
 }
 
 .contact{
 	background-color: #EAECEE;
+	border-style: solid;
 }
 
 /* Animations */
@@ -78,4 +86,19 @@ h2 {
 a {
 	font-size: 1.5rem;
 }
+
+img {
+	max-width: 200px;
+}
+
+h1 {
+	width: 100%;
+}
+/*
+.email {
+	font-size: 0.75rem;
+}*/
+
+
+
 
